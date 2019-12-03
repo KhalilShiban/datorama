@@ -1,6 +1,11 @@
 package com.datorama.automation.General;
 
-
+/**
+ * 
+ * @author khalil
+ *General enum for the app
+ *Define the status enum 
+ */
 public class GeneralEnums{
 
 
