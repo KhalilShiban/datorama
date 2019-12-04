@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 
 import org.json.JSONObject;
 
-import com.datorama.automation.General.GeneralEnums.StatusCode;
+import com.datorama.automation.General.AppEnums.GeneralEnums.StatusCode;
 
 /**
  * 
@@ -58,7 +58,6 @@ public class ApisUtils {
                     if(headers.containsKey("ETag")) {
                         CachedApisHelper.getInstance().etags.put(destinationUrl, headers.get("ETag").get(0));
                     }
-
                     return c;
                 } catch (Exception e) {
                     StringWriter sw = new StringWriter();
