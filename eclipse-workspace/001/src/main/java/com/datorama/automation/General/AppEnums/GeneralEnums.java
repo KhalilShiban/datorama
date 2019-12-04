@@ -1,4 +1,4 @@
-package com.datorama.automation.General;
+package com.datorama.automation.General.AppEnums;
 
 /**
  * 
